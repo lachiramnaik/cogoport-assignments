@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    /*overflow-x: hidden;*/
+}
+
+body {
+    background: white;
+}
+
+body::selection {
+    color: white;
+}
+
+
+/*scrollbar design*/
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 0px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #718093;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #273c75;
+    border: 0px solid #EE5A24;
+}
+
+.homebox {
+    padding: 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 15%;
+    background: white;
+}
+
+img {
+    width: 90%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.name,
+.email,
+.id {
+    text-align: left;
+    line-height: 45px;
+}
+
+span {
+    color: black;
+    font-size: 23PX;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    padding: 8px 25px 8px 25px;
+    color: white;
+    background-color: #407094;
+    font-size: 25px;
+    margin: 10px 0px 15px 0px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: rgb(156, 153, 153);
+}
+
+button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #b2bec3;
+    color: black;
+}
